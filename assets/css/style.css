@@ -190,3 +190,9 @@ figcaption::before { content: "Figure " counter(fig) ". "; font-variant: small-c
 }
 .site-footer p { margin: 0.2rem 0; }
 .site-footer a { color: var(--muted); }
+
+/* venue location on the right, session on its own line (CV talks) */
+.loc { float: right; margin-left: 1rem; color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
+.session { color: var(--muted); font-size: 0.92rem; font-style: italic; }
+dt small { font-variant: normal; letter-spacing: 0; font-style: italic; }
+@media (max-width: 600px) { .loc { float: none; display: block; margin: 0; } }
