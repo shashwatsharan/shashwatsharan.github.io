@@ -151,10 +151,12 @@ May 2022
 #### Invited workshops
 
 Jun 2026
-: ICTP-INdAM-SLMath Summer Graduate School for Machine Learning, ICTP, Trieste, Italy
+: <span class="loc">Trieste, Italy</span>ICTP-INdAM-SLMath Summer Graduate School for Machine Learning<br>
+<span class="session">International Centre for Theoretical Physics (ICTP)</span>
 
 Jul 2024
-: Workshop on Emergent Phenomena in Nonlinear Dispersive Waves, Northumbria University, Newcastle, UK
+: <span class="loc">Newcastle, UK</span>Workshop on Emergent Phenomena in Nonlinear Dispersive Waves<br>
+<span class="session">Northumbria University</span>
 
 ## Service and outreach
 
