@@ -51,7 +51,6 @@
         <p class="sidebar-role">{{ site.role }}</p>
         <ul class="sidebar-links">
           <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2"/></svg>{{ site.location }}</li>
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 6l9 7 9-7"/></svg><a href="mailto:{{ site.email_address }}">Email</a></li>
           {% for l in site.links %}
           <li>
             {%- case l.icon -%}
