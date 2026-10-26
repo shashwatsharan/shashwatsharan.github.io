@@ -89,15 +89,15 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 #### Invited seminars and conference talks
 
 Mar 2027<br><small>(upcoming)</small>
-: <span class="loc">Athens, GA</span>Waves 2027<br>
+: <span class="loc">Athens, GA, USA</span>Waves 2027<br>
 <span class="session">Minisymposium: Regular and Stochastic Dispersive Hydrodynamics</span>
 
 Nov 2026
-: <span class="loc">Tempe, AZ</span>AMS Fall Western Sectional Meeting<br>
+: <span class="loc">Tempe, AZ, USA</span>AMS Fall Western Sectional Meeting<br>
 <span class="session">Special Session on Nonlinear Waves, Integrable Systems, and Inverse Scattering</span>
 
 Oct 2026
-: <span class="loc">Dallas, TX</span>SIAM Texas–Louisiana Section Annual Meeting<br>
+: <span class="loc">Dallas, TX, USA</span>SIAM Texas–Louisiana Section Annual Meeting<br>
 <span class="session">Minisymposium MS39: Recent Advances in Nonlinear Waves and Integrable Systems</span>
 
 May 2026
@@ -105,11 +105,11 @@ May 2026
 <span class="session">Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics</span> {% comment %}<br>*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*{% endcomment %}
 
 Nov 2025
-: <span class="loc">Boulder, CO</span>Nonlinear Waves Seminar<br>
+: <span class="loc">Boulder, CO, USA</span>Nonlinear Waves Seminar<br>
 <span class="session">Department of Applied Mathematics, CU Boulder</span> {% comment %}<br>*Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*{% endcomment %}
 
 Mar 2025
-: <span class="loc">Lawrence, KS</span>AMS Spring Central Sectional Meeting<br>
+: <span class="loc">Lawrence, KS, USA</span>AMS Spring Central Sectional Meeting<br>
 <span class="session">Special Session on Dispersive Hydrodynamics, University of Kansas</span> {% comment %}<br>*Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*{% endcomment %}
 
 Mar 2018
