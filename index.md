@@ -3,9 +3,7 @@ layout: default
 title: Home
 ---
 
-I am the **Keith Julien Visiting Assistant Professor** in the [Department of Applied Mathematics](https://www.colorado.edu/amath/) at the University of Colorado Boulder. My research is on the nonlinear dynamics of waves in physical systems. In particular, I study Bose–Einstein condensates and dispersive hydrodynamics, using asymptotics, perturbation analysis and numerical computation, where mathematics meets experiments in atomic physics and fluid dynamics.
-
-Part of my recent work, in collaboration with experimentalists, concerns *dam-break problems in superfluids*: what happens when an ultra-cold quantum fluid is suddenly released, and how the resulting waves can be predicted and observed in the laboratory. I have also worked on the dynamics of feedforward networks for signal amplification and beam steering.
+I am the **Keith Julien Visiting Assistant Professor** in the [Department of Applied Mathematics](https://www.colorado.edu/amath/) at the University of Colorado Boulder. My research is on the nonlinear dynamics of waves in physical systems. In particular, I study Bose–Einstein condensates and dispersive hydrodynamics, using asymptotics, perturbation analysis and numerical computation.
 
 ## News
 
