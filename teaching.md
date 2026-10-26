@@ -11,12 +11,12 @@ notes_appm1360: ""
 #### University of Colorado Boulder
 
 Fall 2026
-: **APPM 1360: Calculus 2**{% if page.notes_appm1360 != "" %} · [Lecture notes]({{ page.notes_appm1360 }}){% endif %}
+: APPM 1360: Calculus 2 {% if page.notes_appm1360 != "" %} · [Lecture notes]({{ page.notes_appm1360 }}){% endif %}
 
 #### University of California, Merced
 
 Summer 2026
-: **MATH 125: Intermediate Differential Equations**
+: MATH 125: Intermediate Differential Equations
 
 ## Teaching assistant
 
