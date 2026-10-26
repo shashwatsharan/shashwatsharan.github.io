@@ -88,6 +88,12 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 
 #### Invited seminars and conference talks
 
+Mar 2027
+: Waves 2027, Minisymposium: Regular and Stochastic Dispersive Hydrodynamics, University of Georgia, Athens, GA
+
+Oct 2026
+: SIAM Texas–Louisiana Section Annual Meeting, Minisymposium MS39: Recent Advances in Nonlinear Waves and Integrable Systems, Southern Methodist University, Dallas, TX
+
 May 2026
 : SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada {% comment %}<br>*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*{% endcomment %}
 
