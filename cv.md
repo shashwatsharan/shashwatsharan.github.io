@@ -120,7 +120,7 @@ Mar 2018
 
 Apr 2025
 : <span class="loc">Athens, GA, USA</span>Waves 2025<br>
-<span class="session">13th International Conference on Nonlinear Evolution Equations and Wave Phenomena, University of Georgia</span><br>
+<span class="session">University of Georgia</span><br>
 *Dry dam break of a confined Bose–Einstein condensate*
 
 Jan 2025
