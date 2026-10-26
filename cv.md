@@ -10,18 +10,18 @@ title: Curriculum Vitae
 
 2022 – 2026
 : **PhD, Applied Mathematics**, University of California, Merced<br>
-  Thesis: *Dambreak Hydrodynamics of Confined Bose–Einstein Condensates*.<br>
-  Advisor: Prof. Boaz Ilan
+Thesis: *Dambreak Hydrodynamics of Confined Bose–Einstein Condensates*.<br>
+Advisor: Prof. Boaz Ilan
 
 2020 – 2022
 : **MS, Applied Mathematics**, San Diego State University<br>
-  Thesis: *Dynamics and Bifurcations of Feedforward Networks*.<br>
-  Advisor: Prof. Antonio Palacios
+Thesis: *Dynamics and Bifurcations of Feedforward Networks*.<br>
+Advisor: Prof. Antonio Palacios
 
 2016 – 2020
 : **B.Tech, Electrical and Electronics Engineering**, Vellore Institute of Technology<br>
-  Capstone: *Design of Control Systems for Inverted Double Linear and Rotary Pendulums*.<br> 
-  Advisor: Prof. Rashmi Ranjan Das
+Capstone: *Design of Control Systems for Inverted Double Linear and Rotary Pendulums*.<br>
+Advisor: Prof. Rashmi Ranjan Das
 
 ## Employment
 
@@ -67,7 +67,6 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 2024, 2026
 : Applied Mathematics Travel Award, UC Merced
 
-
 2025
 : GradEXCEL Peer Mentor Award, UC Merced
 
@@ -86,33 +85,49 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 
 ## Talks and presentations
 
-#### Invited seminars
-
-Nov 2025
-: *Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*<br>
-  Nonlinear Waves Seminar, Department of Applied Mathematics, CU Boulder
-
-#### Conference talks
+#### Invited seminars and conference talks
 
 May 2026
 : *Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*<br>
-  SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada <span class="tag">invited</span>
+SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada
 
-Apr 2025
-: *Dry dam break of a confined Bose–Einstein condensate*<br>
-  13th International Conference on Nonlinear Evolution Equations and Wave Phenomena, Athens, GA <span class="tag">contributed</span>
+Nov 2025
+: *Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*<br>
+Nonlinear Waves Seminar, Department of Applied Mathematics, CU Boulder
 
 Mar 2025
 : *Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*<br>
-  AMS Spring Central Sectional Meeting, Special Session on Dispersive Hydrodynamics, University of Kansas <span class="tag">invited</span>
-
-Jan 2025
-: *Dry dam break of a confined Bose–Einstein condensate*<br>
-  Joint Mathematics Meetings (JMM 2025), Seattle, WA <span class="tag">contributed</span>
+AMS Spring Central Sectional Meeting, Special Session on Dispersive Hydrodynamics, University of Kansas
 
 Mar 2018
 : *N-body gravitational simulations and trajectories around rotating spherical bodies*<br>
-  International Seminar on Emerging Trends in Mathematics, VIT Vellore, India <span class="tag">invited</span>
+International Seminar on Emerging Trends in Mathematics, VIT Vellore, India
+
+#### Contributed talks and posters
+
+Apr 2025
+: *Dry dam break of a confined Bose–Einstein condensate* <span class="tag">talk</span><br>
+13th International Conference on Nonlinear Evolution Equations and Wave Phenomena, Athens, GA
+
+Jan 2025
+: *Dry dam break of a confined Bose–Einstein condensate* <span class="tag">talk</span><br>
+Joint Mathematics Meetings (JMM 2025), Seattle, WA
+
+Oct 2024
+: *Dam break dynamics of a confined Bose–Einstein condensate* <span class="tag">poster</span><br>
+SIAM Northern California Conference, UC Merced
+
+Jul 2024
+: *Riemann problem for spin coupled Bose–Einstein condensates* <span class="tag">poster</span><br>
+Workshop on Emergent Phenomena in Nonlinear Dispersive Waves, Newcastle, UK
+
+Jun 2024
+: *Riemann problem for spin coupled Bose–Einstein condensates* <span class="tag">poster</span><br>
+SIAM Conference on Nonlinear Waves and Coherent Structures, Baltimore, MD
+
+May 2022
+: *Dynamics and bifurcations of feedforward networks* <span class="tag">poster</span><br>
+Southern California Applied Mathematics Symposium, Harvey Mudd College
 
 #### Invited workshops
 
@@ -121,20 +136,6 @@ Jun 2026
 
 Jul 2024
 : Workshop on Emergent Phenomena in Nonlinear Dispersive Waves, Northumbria University, Newcastle, UK
-
-#### Posters
-
-Oct 2024
-: *Dam break dynamics of a confined Bose–Einstein condensate*, SIAM Northern California Conference, UC Merced
-
-Jul 2024
-: *Riemann problem for spin coupled Bose–Einstein condensates*, Workshop on Emergent Phenomena in Nonlinear Dispersive Waves, Newcastle, UK
-
-Jun 2024
-: *Riemann problem for spin coupled Bose–Einstein condensates*, SIAM Conference on Nonlinear Waves and Coherent Structures, Baltimore, MD
-
-May 2022
-: *Dynamics and bifurcations of feedforward networks*, Southern California Applied Mathematics Symposium, Harvey Mudd College
 
 ## Service and outreach
 
