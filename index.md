@@ -8,7 +8,7 @@ I am the **Keith Julien Visiting Assistant Professor** in the [Department of App
 ## News
 
 Jul 2026
-: Defended my PhD thesis, *Confined Dam-Break Dynamics of Bose–Einstein Condensates*, at UC Merced under the supervision of Prof. Boaz Ilan.
+: Defended my PhD thesis, *Confined Dam-Break Dynamics of Bose–Einstein Condensates*, at UC Merced.
 
 Jul 2026
 : New preprint: *Dry Dam-Break Over Parabolic Bathymetry*, [arXiv:2607.13050](https://arxiv.org/abs/2607.13050).
