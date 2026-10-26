@@ -16,7 +16,7 @@ Fall 2026
 #### University of California, Merced
 
 Summer 2026
-: **MATH 125: Intermediate Differential Equations** (Teaching Fellow)
+: **MATH 125: Intermediate Differential Equations**
 
 ## Teaching assistant
 
