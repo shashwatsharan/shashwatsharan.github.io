@@ -88,23 +88,29 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 
 #### Invited seminars and conference talks
 
-Mar 2027
-: Waves 2027, Minisymposium: Regular and Stochastic Dispersive Hydrodynamics, University of Georgia, Athens, GA
+Mar 2027<br><small>(upcoming)</small>
+: <span class="loc">Athens, GA</span>Waves 2027<br>
+<span class="session">Minisymposium: Regular and Stochastic Dispersive Hydrodynamics</span>
 
 Oct 2026
-: SIAM Texas–Louisiana Section Annual Meeting, Minisymposium MS39: Recent Advances in Nonlinear Waves and Integrable Systems, Southern Methodist University, Dallas, TX
+: <span class="loc">Dallas, TX</span>SIAM Texas–Louisiana Section Annual Meeting<br>
+<span class="session">Minisymposium MS39: Recent Advances in Nonlinear Waves and Integrable Systems</span>
 
 May 2026
-: SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada {% comment %}<br>*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*{% endcomment %}
+: <span class="loc">Montréal, Canada</span>SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26)<br>
+<span class="session">Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics</span> {% comment %}<br>*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*{% endcomment %}
 
 Nov 2025
-: Nonlinear Waves Seminar, Department of Applied Mathematics, CU Boulder {% comment %}<br>*Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*{% endcomment %}
+: <span class="loc">Boulder, CO</span>Nonlinear Waves Seminar<br>
+<span class="session">Department of Applied Mathematics, CU Boulder</span> {% comment %}<br>*Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*{% endcomment %}
 
 Mar 2025
-: AMS Spring Central Sectional Meeting, Special Session on Dispersive Hydrodynamics, University of Kansas {% comment %}<br>*Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*{% endcomment %}
+: <span class="loc">Lawrence, KS</span>AMS Spring Central Sectional Meeting<br>
+<span class="session">Special Session on Dispersive Hydrodynamics, University of Kansas</span> {% comment %}<br>*Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*{% endcomment %}
 
 Mar 2018
-: International Seminar on Emerging Trends in Mathematics, VIT Vellore, India {% comment %}<br>*N-body gravitational simulations and trajectories around rotating spherical bodies*{% endcomment %}
+: <span class="loc">Vellore, India</span>International Seminar on Emerging Trends in Mathematics<br>
+<span class="session">Vellore Institute of Technology</span> {% comment %}<br>*N-body gravitational simulations and trajectories around rotating spherical bodies*{% endcomment %}
 
 #### Contributed talks and posters
 
