@@ -4,7 +4,7 @@ subtitle: Applied Mathematics · University of Colorado Boulder
 description: Personal and academic website of Shashwat Sharan, applied mathematician working on nonlinear waves, Bose–Einstein condensates and dispersive hydrodynamics.
 email: shashwat.sharan [at] colorado [dot] edu
 url: https://shashwatsharan.github.io
-
+permalink: pretty
 links:
   - name: Google Scholar
     url: https://scholar.google.com/citations?user=fyJwJbwAAAAJ&hl=en
