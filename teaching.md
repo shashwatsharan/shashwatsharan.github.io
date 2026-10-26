@@ -1,19 +1,24 @@
 ---
 layout: default
 title: Teaching
+# Paste the Google Drive link for each course's lecture notes between the quotes.
+# Leave it empty ("") and the "Lecture notes" link stays hidden.
+notes_appm1360: ""
 ---
-
-I have taught as an instructor of record and as a teaching assistant for a wide range of undergraduate mathematics courses.
 
 ## Instructor of record
 
+#### University of Colorado Boulder
+
+Fall 2026
+: **APPM 1360: Calculus 2**{% if page.notes_appm1360 != "" %} · [Lecture notes]({{ page.notes_appm1360 }}){% endif %}
+
+#### University of California, Merced
+
 Summer 2026
-: **MATH 125: Intermediate Differential Equations**, University of California, Merced (Teaching Fellow)<br>
-  Prepared and delivered all lectures, and wrote the homework, quizzes and examinations. Topics: first- and second-order ODEs, bifurcations, variable-coefficient ODEs, linear and nonlinear systems, boundary value problems.
+: **MATH 125: Intermediate Differential Equations** (Teaching Fellow)
 
 ## Teaching assistant
-
-<p class="muted">Led discussion sections of 30+ students, ran quizzes, held office hours, graded exams and homework, and occasionally lectured.</p>
 
 #### University of California, Merced
 
