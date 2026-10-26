@@ -125,6 +125,7 @@ Apr 2025
 
 Jan 2025
 : <span class="loc">Seattle, WA</span>Joint Mathematics Meetings (JMM 2025)<br>
+<span class="session">Seattle Convention Center</span><br>
 *Dry dam break of a confined Bose–Einstein condensate*
 
 #### Posters
@@ -140,7 +141,8 @@ Jul 2024
 *Riemann problem for spin coupled Bose–Einstein condensates*
 
 Jun 2024
-: <span class="loc">Baltimore, MD</span>SIAM Conference on Nonlinear Waves and Coherent Structures<br>
+: <span class="loc">Baltimore, MD</span>SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS24)<br>
+<span class="session">Lord Baltimore Hotel</span><br>
 *Riemann problem for spin coupled Bose–Einstein condensates*
 
 May 2022
