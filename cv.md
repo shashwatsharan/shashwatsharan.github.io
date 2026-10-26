@@ -92,6 +92,10 @@ Mar 2027<br><small>(upcoming)</small>
 : <span class="loc">Athens, GA</span>Waves 2027<br>
 <span class="session">Minisymposium: Regular and Stochastic Dispersive Hydrodynamics</span>
 
+Nov 2026
+: <span class="loc">Tempe, AZ</span>AMS Fall Western Sectional Meeting<br>
+<span class="session">Special Session on Nonlinear Waves, Integrable Systems, and Inverse Scattering</span>
+
 Oct 2026
 : <span class="loc">Dallas, TX</span>SIAM Texas–Louisiana Section Annual Meeting<br>
 <span class="session">Minisymposium MS39: Recent Advances in Nonlinear Waves and Integrable Systems</span>
