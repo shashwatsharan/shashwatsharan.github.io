@@ -61,10 +61,10 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 2026
 : Applied Mathematics Distinguished Service Award, UC Merced
 
+<!--
 2024 – 26
 : Applied Mathematics Summer Fellowship, UC Merced (2024, 2025, 2026)
 
-<!--
 2024, 2026
 : Applied Mathematics Travel Award, UC Merced
 
