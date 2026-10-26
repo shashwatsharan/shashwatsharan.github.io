@@ -1,0 +1,38 @@
+# Site settings. Edit these and the header/footer update everywhere.
+title: Shashwat Sharan
+subtitle: Applied Mathematics · University of Colorado Boulder
+description: Personal and academic website of Shashwat Sharan, applied mathematician working on nonlinear waves, Bose–Einstein condensates and dispersive hydrodynamics.
+email: shashwat.sharan [at] colorado [dot] edu
+url: https://shashwatsharan.github.io
+
+links:
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=fyJwJbwAAAAJ&hl=en
+  - name: GitHub
+    url: https://github.com/shashwatsharan
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/shashwatsharan/
+
+# Navigation bar (order matters)
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Teaching
+    url: /teaching/
+  - title: CV
+    url: /cv/
+
+# Markdown + math. Write math as $$ ... $$ (inline or on its own line).
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
+  - LICENSE
