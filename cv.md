@@ -89,20 +89,16 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 #### Invited seminars and conference talks
 
 May 2026
-: SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada<br>
-*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*
+: SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada {% comment %}<br>*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*{% endcomment %}
 
 Nov 2025
-: Nonlinear Waves Seminar, Department of Applied Mathematics, CU Boulder<br>
-*Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*
+: Nonlinear Waves Seminar, Department of Applied Mathematics, CU Boulder {% comment %}<br>*Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*{% endcomment %}
 
 Mar 2025
-: AMS Spring Central Sectional Meeting, Special Session on Dispersive Hydrodynamics, University of Kansas<br>
-*Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*
+: AMS Spring Central Sectional Meeting, Special Session on Dispersive Hydrodynamics, University of Kansas {% comment %}<br>*Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*{% endcomment %}
 
 Mar 2018
-: International Seminar on Emerging Trends in Mathematics, VIT Vellore, India<br>
-*N-body gravitational simulations and trajectories around rotating spherical bodies*
+: International Seminar on Emerging Trends in Mathematics, VIT Vellore, India {% comment %}<br>*N-body gravitational simulations and trajectories around rotating spherical bodies*{% endcomment %}
 
 #### Contributed talks and posters
 
