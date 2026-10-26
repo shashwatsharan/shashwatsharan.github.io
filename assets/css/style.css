@@ -59,8 +59,8 @@ body {
 .sidebar-inner { position: sticky; top: 2rem; }
 .avatar {
   display: block; width: 9rem; height: 9rem; border-radius: 50%;
-  object-fit: cover; border: 1px solid var(--rule); padding: 4px; background: #fff;
-  filter: grayscale(100%) contrast(1.05);   /* delete this line for a colour photo */
+  object-fit: cover; object-position: 50% 40%; border: 1px solid var(--rule); padding: 4px; background: #fff;
+  /* filter: grayscale(100%);   un-comment for a black-and-white photo */
 }
 .sidebar-name { margin: 1rem 0 0.1rem; font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
 .sidebar-role { margin: 0 0 1rem; color: var(--muted); font-size: 0.9rem; line-height: 1.35; }
