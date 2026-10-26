@@ -10,15 +10,18 @@ title: Curriculum Vitae
 
 2022 – 2026
 : **PhD, Applied Mathematics**, University of California, Merced<br>
-  Thesis: *Dambreak Hydrodynamics of Confined Bose–Einstein Condensates*. Advisor: Prof. Boaz Ilan
+  Thesis: *Dambreak Hydrodynamics of Confined Bose–Einstein Condensates*.<br>
+  Advisor: Prof. Boaz Ilan
 
 2020 – 2022
 : **MS, Applied Mathematics**, San Diego State University<br>
-  Thesis: *Dynamics and Bifurcations of Feedforward Networks*. Advisor: Prof. Antonio Palacios
+  Thesis: *Dynamics and Bifurcations of Feedforward Networks*.<br>
+  Advisor: Prof. Antonio Palacios
 
 2016 – 2020
 : **B.Tech, Electrical and Electronics Engineering**, Vellore Institute of Technology<br>
-  Capstone: *Design of Control Systems for Inverted Double Linear and Rotary Pendulums*. Advisor: Prof. Rashmi Ranjan Das
+  Capstone: *Design of Control Systems for Inverted Double Linear and Rotary Pendulums*.<br> 
+  Advisor: Prof. Rashmi Ranjan Das
 
 ## Employment
 
