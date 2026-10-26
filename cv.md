@@ -26,10 +26,10 @@ title: Curriculum Vitae
 ## Employment
 
 2026 –
-: **Keith Julien Visiting Assistant Professor**, University of Colorado Boulder
+: Keith Julien Visiting Assistant Professor, University of Colorado Boulder
 
 Summer 2026
-: Graduate Student Instructor (Teaching Fellow), University of California, Merced
+: Teaching Fellow, University of California, Merced
 
 2022 – 2026
 : Graduate Teaching Assistant, University of California, Merced
