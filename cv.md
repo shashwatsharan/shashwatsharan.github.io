@@ -89,15 +89,15 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 #### Invited seminars and conference talks
 
 Mar 2027<br><small>(upcoming)</small>
-: <span class="loc">Athens, GA, USA</span>Waves 2027<br>
+: <span class="loc">Athens, GA</span>Waves 2027<br>
 <span class="session">Minisymposium: Regular and Stochastic Dispersive Hydrodynamics</span>
 
 Nov 2026
-: <span class="loc">Tempe, AZ, USA</span>AMS Fall Western Sectional Meeting<br>
+: <span class="loc">Tempe, AZ</span>AMS Fall Western Sectional Meeting<br>
 <span class="session">Special Session on Nonlinear Waves, Integrable Systems, and Inverse Scattering</span>
 
 Oct 2026
-: <span class="loc">Dallas, TX, USA</span>SIAM Texas–Louisiana Section Annual Meeting<br>
+: <span class="loc">Dallas, TX</span>SIAM Texas–Louisiana Section Annual Meeting<br>
 <span class="session">Minisymposium MS39: Recent Advances in Nonlinear Waves and Integrable Systems</span>
 
 May 2026
@@ -105,42 +105,48 @@ May 2026
 <span class="session">Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics</span> {% comment %}<br>*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*{% endcomment %}
 
 Nov 2025
-: <span class="loc">Boulder, CO, USA</span>Nonlinear Waves Seminar<br>
+: <span class="loc">Boulder, CO</span>Nonlinear Waves Seminar<br>
 <span class="session">Department of Applied Mathematics, CU Boulder</span> {% comment %}<br>*Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*{% endcomment %}
 
 Mar 2025
-: <span class="loc">Lawrence, KS, USA</span>AMS Spring Central Sectional Meeting<br>
+: <span class="loc">Lawrence, KS</span>AMS Spring Central Sectional Meeting<br>
 <span class="session">Special Session on Dispersive Hydrodynamics, University of Kansas</span> {% comment %}<br>*Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*{% endcomment %}
 
 Mar 2018
 : <span class="loc">Vellore, India</span>International Seminar on Emerging Trends in Mathematics<br>
 <span class="session">Vellore Institute of Technology</span> {% comment %}<br>*N-body gravitational simulations and trajectories around rotating spherical bodies*{% endcomment %}
 
-#### Contributed talks and posters
+#### Contributed talks
 
 Apr 2025
-: *Dry dam break of a confined Bose–Einstein condensate* <span class="tag">talk</span><br>
-13th International Conference on Nonlinear Evolution Equations and Wave Phenomena, Athens, GA
+: <span class="loc">Athens, GA</span>13th International Conference on Nonlinear Evolution Equations and Wave Phenomena<br>
+<span class="session">University of Georgia</span><br>
+*Dry dam break of a confined Bose–Einstein condensate*
 
 Jan 2025
-: *Dry dam break of a confined Bose–Einstein condensate* <span class="tag">talk</span><br>
-Joint Mathematics Meetings (JMM 2025), Seattle, WA
+: <span class="loc">Seattle, WA</span>Joint Mathematics Meetings (JMM 2025)<br>
+*Dry dam break of a confined Bose–Einstein condensate*
+
+#### Posters
 
 Oct 2024
-: *Dam break dynamics of a confined Bose–Einstein condensate* <span class="tag">poster</span><br>
-SIAM Northern California Conference, UC Merced
+: <span class="loc">Merced, CA</span>SIAM Northern California Conference<br>
+<span class="session">UC Merced</span><br>
+*Dam break dynamics of a confined Bose–Einstein condensate*
 
 Jul 2024
-: *Riemann problem for spin coupled Bose–Einstein condensates* <span class="tag">poster</span><br>
-Workshop on Emergent Phenomena in Nonlinear Dispersive Waves, Newcastle, UK
+: <span class="loc">Newcastle, UK</span>Workshop on Emergent Phenomena in Nonlinear Dispersive Waves<br>
+<span class="session">Northumbria University</span><br>
+*Riemann problem for spin coupled Bose–Einstein condensates*
 
 Jun 2024
-: *Riemann problem for spin coupled Bose–Einstein condensates* <span class="tag">poster</span><br>
-SIAM Conference on Nonlinear Waves and Coherent Structures, Baltimore, MD
+: <span class="loc">Baltimore, MD</span>SIAM Conference on Nonlinear Waves and Coherent Structures<br>
+*Riemann problem for spin coupled Bose–Einstein condensates*
 
 May 2022
-: *Dynamics and bifurcations of feedforward networks* <span class="tag">poster</span><br>
-Southern California Applied Mathematics Symposium, Harvey Mudd College
+: <span class="loc">Claremont, CA</span>Southern California Applied Mathematics Symposium (SoCAMS)<br>
+<span class="session">Harvey Mudd College</span><br>
+*Dynamics and bifurcations of feedforward networks*
 
 #### Invited workshops
 
