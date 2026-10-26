@@ -1,17 +1,25 @@
 # Site settings. Edit these and the header/footer update everywhere.
 title: Shashwat Sharan
-subtitle: Applied Mathematics · University of Colorado Boulder
+# Shown in the left sidebar under the photo
+role: Keith Julien Visiting Assistant Professor, Applied Mathematics
+location: University of Colorado Boulder
+email_address: shashwat.sharan@colorado.edu
 description: Personal and academic website of Shashwat Sharan, applied mathematician working on nonlinear waves, Bose–Einstein condensates and dispersive hydrodynamics.
 email: shashwat.sharan [at] colorado [dot] edu
 url: https://shashwatsharan.github.io
-permalink: pretty
+permalink: pretty   # pages live at /research/ rather than /research.html
+
+# Sidebar/footer links. icon can be: scholar, code, profile, mail, link
 links:
   - name: Google Scholar
     url: https://scholar.google.com/citations?user=fyJwJbwAAAAJ&hl=en
+    icon: scholar
   - name: GitHub
     url: https://github.com/shashwatsharan
+    icon: code
   - name: LinkedIn
     url: https://www.linkedin.com/in/shashwatsharan/
+    icon: profile
 
 # Navigation bar (order matters)
 nav:
