@@ -130,8 +130,13 @@ Jan 2025
 
 #### Posters
 
+Oct 2025
+: <span class="loc">Berkeley, CA</span>2nd SIAM Northern and Central California Sectional Conference (NCC25)<br>
+<span class="session">Lawrence Berkeley National Laboratory</span><br>
+*Dam break dynamics of a confined Bose–Einstein condensate*
+
 Oct 2024
-: <span class="loc">Merced, CA</span>SIAM Northern California Conference<br>
+: <span class="loc">Merced, CA</span>1st SIAM Northern and Central California Sectional Conference (NCC24)<br>
 <span class="session">UC Merced</span><br>
 *Dam break dynamics of a confined Bose–Einstein condensate*
 
