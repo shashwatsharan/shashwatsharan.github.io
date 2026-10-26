@@ -88,20 +88,20 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 #### Invited seminars and conference talks
 
 May 2026
-: *Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*<br>
-SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada
+: SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26), Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics, Montréal, Canada<br>
+*Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate*
 
 Nov 2025
-: *Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*<br>
-Nonlinear Waves Seminar, Department of Applied Mathematics, CU Boulder
+: Nonlinear Waves Seminar, Department of Applied Mathematics, CU Boulder<br>
+*Vacuum dambreak of a superfluid: rarefaction waves in harmonic potential*
 
 Mar 2025
-: *Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*<br>
-AMS Spring Central Sectional Meeting, Special Session on Dispersive Hydrodynamics, University of Kansas
+: AMS Spring Central Sectional Meeting, Special Session on Dispersive Hydrodynamics, University of Kansas<br>
+*Vacuum dam break problem for the defocusing NLS equation with a harmonic potential*
 
 Mar 2018
-: *N-body gravitational simulations and trajectories around rotating spherical bodies*<br>
-International Seminar on Emerging Trends in Mathematics, VIT Vellore, India
+: International Seminar on Emerging Trends in Mathematics, VIT Vellore, India<br>
+*N-body gravitational simulations and trajectories around rotating spherical bodies*
 
 #### Contributed talks and posters
 
