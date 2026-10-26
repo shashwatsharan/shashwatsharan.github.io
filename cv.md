@@ -60,7 +60,8 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 
 2026
 : Applied Mathematics Distinguished Service Award, UC Merced
-<!--
+
+{% comment %}
 2024 – 26
 : Applied Mathematics Summer Fellowship, UC Merced (2024, 2025, 2026)
 
@@ -75,7 +76,7 @@ See [Publications](/publications/) and [Teaching](/teaching/).
 
 2024
 : MacKenzie Scott Graduate Travel Award, UC Merced
--->
+{% endcomment %}
 
 2022
 : Academic Excellence in Mathematics Award, San Diego State University
