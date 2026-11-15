@@ -21,6 +21,7 @@ Nov 2025
 
 Mar 2025
 : New preprint: *Breaking a Superfluid Harmonic Dam*, [arXiv:2503.23246](https://arxiv.org/abs/2503.23246).
+{: .news}
 
 ## Contact
 
