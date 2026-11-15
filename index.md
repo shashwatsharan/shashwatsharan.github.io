@@ -21,3 +21,8 @@ Nov 2025
 
 Mar 2025
 : New preprint: *Breaking a Superfluid Harmonic Dam*, [arXiv:2503.23246](https://arxiv.org/abs/2503.23246).
+
+## Contact
+
+Email: shashwat.sharan (at) colorado (dot) edu<br>
+Office: ECOT 218, 1111 Engineering Center
