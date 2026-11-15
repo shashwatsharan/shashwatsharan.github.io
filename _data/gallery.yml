@@ -1,0 +1,38 @@
+# Gallery albums, newest first.
+# To add a photo, put the full image in assets/img/gallery/ and a smaller copy
+# (about 1200 px) with the same name in assets/img/gallery/thumbs/.
+# ar is the width divided by the height of the photo.
+- title: Long Lake Trail
+  place: Colorado
+  date: September 2026
+  photos:
+    - file: long-lake-2026-09.jpg
+      ar: 1.493
+      caption: Boaz Ilan, Sean Nixon, Mark Hoefer and me (left to right).
+
+- title: Boulder
+  place: Colorado
+  date: August 2026
+  photos:
+    - file: boulder-campus-2026-08.jpg
+      ar: 0.721
+      caption: A sunny day over the CU Boulder campus.
+
+- title: Highway 1
+  place: California
+  date: May 2026
+  photos:
+    - file: highway1-coast-2026-05.jpg
+      ar: 1.328
+      caption: The coastline along Highway 1.
+    - file: highway1-me-2026-05.jpg
+      ar: 0.753
+      caption: Me, along Highway 1.
+
+- title: Bella Luna
+  place: Merced, California
+  date: December 2025
+  photos:
+    - file: dinner-2025-12.jpg
+      ar: 1.778
+      caption: Boaz Ilan, Patrick Sprenger and me (left to right).
