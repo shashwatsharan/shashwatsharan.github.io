@@ -250,7 +250,7 @@ details.topic > summary {
 details.topic > summary::before { top: -0.05em; }
 details[open].topic { padding-bottom: 0.4rem; }
 details.result { counter-increment: result; margin: 0.8rem 0 1rem; }
-details.result > summary { font-size: 1.05rem; font-style: italic; margin: 0.4rem 0 0.6rem; }
+details.result > summary { font-size: 1.05rem; font-style: italic; font-weight: 600; margin: 0.4rem 0 0.6rem; }
 details.result > summary::after { content: none; }
 details.result > summary > span.num { font-style: normal; }
 details.result > summary { padding-left: 2.4rem; }
