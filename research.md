@@ -27,7 +27,7 @@ With sound speed $$c = \sqrt{g\lvert\psi\rvert^2/m}$$, superfluid velocity $$u$$
 
 $$
 \begin{aligned}
-c &= \frac{\omega}{2}\csc\!\Big(\frac{3\omega t}{2}\Big)\big(X(t)-x\big), \\[4pt]
+c^2 &= \frac{\omega^2}{4}\csc^2\!\Big(\frac{3\omega t}{2}\Big)\big(X(t)-x\big)^2, \\[4pt]
 u &= \frac{2c_0 + \omega x\cos\!\big(\frac{3\omega t}{2}\big)\csc\!\big(\frac{\omega t}{2}\big)}{1+2\cos(\omega t)},
 \end{aligned}
 \qquad
@@ -45,7 +45,7 @@ $$
 As $$\omega \to 0$$ it reduces to the classical simple wave
 
 $$
-c = \frac{1}{3}\Big(2c_0 - \frac{x}{t}\Big),
+c^2 = \frac{1}{9}\Big(2c_0 - \frac{x}{t}\Big)^2,
 \qquad
 u = \frac{2}{3}\Big(\frac{x}{t} + c_0\Big),
 \qquad
