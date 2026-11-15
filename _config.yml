@@ -33,6 +33,8 @@ nav:
     url: /teaching/
   - title: CV
     url: /cv/
+  - title: Gallery
+    url: /gallery/
 
 # Markdown + math. Write math as $$ ... $$ (inline or on its own line).
 markdown: kramdown
