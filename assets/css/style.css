@@ -232,5 +232,20 @@ dl.news dt { color: var(--accent); }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
-/* research result headings */
-h4.result { color: var(--accent); }
+/* ---------- collapsible sections (research page) ---------- */
+details { margin: 0 0 0.6rem; }
+details > summary { list-style: none; cursor: pointer; position: relative; padding-left: 1.1rem; }
+details > summary::-webkit-details-marker { display: none; }
+details > summary::before {
+  content: "\25B8"; position: absolute; left: 0; top: 0; color: var(--muted);
+  font-style: normal; transition: transform 0.15s ease;
+}
+details[open] > summary::before { transform: rotate(90deg); }
+details.topic > summary { font-size: 1.08rem; font-style: italic; margin: 1.2rem 0 0.4rem; }
+details.result { margin: 1rem 0 1.2rem; }
+details.result > summary {
+  font-size: 0.82rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.14em;
+  margin: 0.4rem 0 0.6rem;
+}
+details.result > summary::before { top: -0.1em; }
+details[open].topic { padding-bottom: 0.4rem; }
