@@ -60,8 +60,8 @@ body {
 .sidebar { padding-top: 2.2rem; }
 .sidebar-inner { position: sticky; top: 2rem; }
 .avatar {
-  display: block; width: 9rem; height: 9rem; border-radius: 50%;
-  object-fit: cover; object-position: 50% 40%; border: 1px solid var(--rule); padding: 4px; background: #fff;
+  display: block; width: 100%; height: auto; aspect-ratio: 4 / 5;
+  object-fit: cover; object-position: 50% 35%;
   /* filter: grayscale(100%);   un-comment for a black-and-white photo */
 }
 .sidebar-name { margin: 1rem 0 0.1rem; font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
@@ -78,7 +78,7 @@ body {
   .sidebar { padding-top: 1.6rem; }
   .sidebar-inner { position: static; display: grid; grid-template-columns: auto 1fr;
                    gap: 0 1.2rem; align-items: center; }
-  .avatar { width: 6.5rem; height: 6.5rem; grid-row: span 3; }
+  .avatar { width: 6.5rem; grid-row: span 3; }
   .sidebar-name { margin-top: 0; }
   .sidebar-links { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; }
   .sidebar-links li { margin: 0; }
