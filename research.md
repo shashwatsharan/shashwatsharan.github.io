@@ -11,7 +11,8 @@ My research in applied mathematics centres on nonlinear waves, dispersive partia
 
 A condensate released from one half of a harmonic trap expands into vacuum as a rarefaction wave, a dry dam break against the confining potential.
 
-#### An exact dry dam break solution in a harmonic trap
+#### An exact rarefaction wave solution in a harmonic trap
+{: .result}
 
 An elongated condensate obeys the one dimensional NLS equation with a harmonic potential
 
@@ -22,11 +23,12 @@ $$
 With $$h = (g/m)\lvert\psi\rvert^2$$, superfluid velocity $$u$$ and initial depth $$h_0 = c_0^2$$, I found the exact solution near the vacuum edge
 
 $$
-\begin{gathered}
-h = \frac{\omega^2}{4}\csc^2\!\Big(\frac{3\omega t}{2}\Big)\big(X(t)-x\big)^2, \\[4pt]
-u = \frac{2c_0 + \omega x\cos\!\big(\frac{3\omega t}{2}\big)\csc\!\big(\frac{\omega t}{2}\big)}{1+2\cos(\omega t)}, \\[4pt]
+\begin{aligned}
+h &= \frac{\omega^2}{4}\csc^2\!\Big(\frac{3\omega t}{2}\Big)\big(X(t)-x\big)^2, \\[4pt]
+u &= \frac{2c_0 + \omega x\cos\!\big(\frac{3\omega t}{2}\big)\csc\!\big(\frac{\omega t}{2}\big)}{1+2\cos(\omega t)},
+\end{aligned}
+\qquad
 X(t) = \frac{2c_0}{\omega}\sin(\omega t).
-\end{gathered}
 $$
 
 Since $$\sqrt{h}$$ is linear in $$x$$, the quantum pressure vanishes and the same pair solves the Euler equations with parabolic forcing
