@@ -17,11 +17,11 @@ A full list is also on [Google Scholar](https://scholar.google.com/citations?use
 
 3. <span class="pub-title">Beam Steering and Signal Amplification Through Feedforward Networks: Part II, Reception</span><br>
    T. Levasseur, A. Palacios, **S. Sharan** and V. In<br>
-   *International Journal of Bifurcation and Chaos* **35**(02), 2530004 (2025)
+   *International Journal of Bifurcation and Chaos* **35**(02), 2530004 (2025) · [DOI](https://doi.org/10.1142/S0218127425300046)
 
 4. <span class="pub-title">Beam Steering and Signal Amplification Through Feedforward Networks. Part I: Transmission</span><br>
    T. Levasseur, A. Palacios, **S. Sharan** and V. In<br>
-   *International Journal of Bifurcation and Chaos* **32**(14), 2230034 (2022)
+   *International Journal of Bifurcation and Chaos* **32**(14), 2230034 (2022) · [DOI](https://doi.org/10.1142/S0218127422300348)
 {: .pubs}
 
 ## In preparation
