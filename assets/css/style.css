@@ -256,3 +256,8 @@ details.result > summary > span.num { font-style: normal; }
 details.result > summary { padding-left: 2.4rem; }
 details.result > summary::before { content: "\25B8\2002" counter(result) "."; font-style: normal; color: var(--ink); }
 details.result[open] > summary::before { transform: none; content: "\25BE\2002" counter(result) "."; }
+
+/* ---------- gallery ---------- */
+.gallery figure { margin: 0 0 2rem; }
+.gallery figure img { width: 100%; border: 0; }
+.gallery figcaption::before { content: none; }
