@@ -21,12 +21,3 @@ Nov 2025
 
 Mar 2025
 : New preprint: *Breaking a Superfluid Harmonic Dam*, [arXiv:2503.23246](https://arxiv.org/abs/2503.23246).
-
-## Contact
-
-Department of Applied Mathematics<br>
-University of Colorado Boulder<br>
-1111 Engineering Center, 526 UCB<br>
-Boulder, CO 80309-0526
-
-E-mail: shashwat.sharan [at] colorado [dot] edu
