@@ -13,6 +13,9 @@ Here is my [CV](/cv/), which has a more complete list of activities.
 
 ## News
 
+Aug 2026
+: Joined the [Department of Applied Mathematics](https://www.colorado.edu/amath/) at the University of Colorado Boulder as the Keith Julien Visiting Assistant Professor.
+
 Jul 2026
 : Defended my PhD thesis, *Confined Dam-Break Dynamics of Bose–Einstein Condensates*, at UC Merced.
 
