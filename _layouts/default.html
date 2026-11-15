@@ -78,10 +78,10 @@
     <p class="muted">Last updated {{ site.time | date: "%B %Y" }} · © {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>
 
-  <!-- Open links to other websites (arXiv, DOI, Google Drive, ...) in a new tab -->
+  <!-- Open links to other websites (arXiv, DOI, Google Drive, ...) and PDFs in a new tab -->
   <script>
     document.querySelectorAll('a[href]').forEach(function (a) {
-      if (a.hostname && a.hostname !== location.hostname) {
+      if ((a.hostname && a.hostname !== location.hostname) || /\.pdf$/i.test(a.pathname)) {
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
       }
