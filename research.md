@@ -56,6 +56,13 @@ Details are in [arXiv:2607.13050](https://arxiv.org/abs/2607.13050).
 
 </details>
 
+<details class="result" markdown="1">
+<summary>Experiment and simulations</summary>
+
+GPU accelerated three dimensional simulations of the confined dam break, compared directly with experiment. Published in [*Physical Review Letters*](https://journals.aps.org/prl/abstract/10.1103/38f7-ym2v).
+
+</details>
+
 <!-- Experiment (to be added). Earlier text kept here for reference:
 When a confined fluid is suddenly released (the classical dam-break problem), it expands as a rarefaction wave. In ultra-cold atomic gases this expansion happens inside a trapping potential that holds the gas together, and the theory of such confined dam-breaks was, until recently, largely undeveloped. Working closely with experimental collaborators, I studied dam-break expansion in harmonically confined Bose–Einstein condensates, governed by a nonlinear Schrödinger equation with a harmonic potential:
 
