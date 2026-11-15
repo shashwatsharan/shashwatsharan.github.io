@@ -11,7 +11,7 @@ My research in applied mathematics centres on nonlinear waves, dispersive partia
 
 A condensate released from one half of a harmonic trap expands into vacuum as a rarefaction wave, a dry dam break against the confining potential.
 
-#### Theory
+#### An exact dry dam break solution in a harmonic trap
 
 An elongated condensate obeys the one dimensional NLS equation with a harmonic potential
 
