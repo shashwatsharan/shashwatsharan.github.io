@@ -57,7 +57,7 @@ body {
   gap: 0 3rem;
 }
 
-.sidebar { padding-top: 2.2rem; }
+.sidebar { padding-top: 7.4rem; }   /* lines the photo up with the first line of text */
 .sidebar-inner { position: sticky; top: 2rem; }
 .avatar {
   display: block; width: 100%; height: auto; aspect-ratio: 4 / 5;
