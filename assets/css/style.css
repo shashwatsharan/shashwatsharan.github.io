@@ -66,7 +66,7 @@ body {
 }
 .sidebar-name { margin: 1rem 0 0.1rem; font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
 .sidebar-role { margin: 0 0 1rem; color: var(--muted); font-size: 0.9rem; line-height: 1.35; }
-.sidebar-links { list-style: none; padding: 0; margin: 0; font-size: 0.9rem; }
+.sidebar-links { list-style: none; padding: 0; margin: 1rem 0 0; font-size: 0.9rem; }
 .sidebar-links li { display: flex; align-items: flex-start; gap: 0.55rem; margin: 0 0 0.45rem; color: var(--muted); line-height: 1.35; }
 .sidebar-links svg { width: 0.95rem; height: 0.95rem; flex: none; margin-top: 0.15rem; stroke: var(--ink); fill: none;
                      stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
@@ -78,9 +78,9 @@ body {
   .sidebar { padding-top: 1.6rem; }
   .sidebar-inner { position: static; display: grid; grid-template-columns: auto 1fr;
                    gap: 0 1.2rem; align-items: center; }
-  .avatar { width: 6.5rem; grid-row: span 3; }
+  .avatar { width: 6.5rem; }
   .sidebar-name { margin-top: 0; }
-  .sidebar-links { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; }
+  .sidebar-links { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; margin: 0; }
   .sidebar-links li { margin: 0; }
 }
 
