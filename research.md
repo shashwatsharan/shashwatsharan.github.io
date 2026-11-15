@@ -10,7 +10,7 @@ Below I present some results and simulations from my research. Click a topic to 
 ## Dispersive hydrodynamics and Bose–Einstein condensates
 
 <details class="topic" markdown="1">
-<summary>Dam-break dynamics of confined Bose–Einstein condensates</summary>
+<summary>Confined expansive waves in Bose–Einstein condensates</summary>
 
 A condensate released from one half of a harmonic trap expands into vacuum as a rarefaction wave, a dry dam break against the confining potential.
 
