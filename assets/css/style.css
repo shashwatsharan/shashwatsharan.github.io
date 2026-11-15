@@ -232,7 +232,8 @@ dl.news dt { color: var(--accent); }
 :root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
 :root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
-/* ---------- collapsible sections (research page) ---------- */
+/* ---------- collapsible sections (research page) ----------
+   Topics: prominent red titles. Results inside a topic: numbered 1, 2, 3 ... */
 details { margin: 0 0 0.6rem; }
 details > summary { list-style: none; cursor: pointer; position: relative; padding-left: 1.1rem; }
 details > summary::-webkit-details-marker { display: none; }
@@ -241,11 +242,17 @@ details > summary::before {
   font-style: normal; transition: transform 0.15s ease;
 }
 details[open] > summary::before { transform: rotate(90deg); }
-details.topic > summary { font-size: 1.08rem; font-style: italic; margin: 1.2rem 0 0.4rem; }
-details.result { margin: 1rem 0 1.2rem; }
-details.result > summary {
-  font-size: 0.82rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.14em;
-  margin: 0.4rem 0 0.6rem;
+details.topic { counter-reset: result; }
+details.topic > summary {
+  font-size: 0.95rem; color: var(--accent); text-transform: uppercase;
+  letter-spacing: 0.12em; margin: 1.3rem 0 0.6rem;
 }
-details.result > summary::before { top: -0.1em; }
+details.topic > summary::before { top: -0.05em; }
 details[open].topic { padding-bottom: 0.4rem; }
+details.result { counter-increment: result; margin: 0.8rem 0 1rem; }
+details.result > summary { font-size: 1.05rem; font-style: italic; margin: 0.4rem 0 0.6rem; }
+details.result > summary::after { content: none; }
+details.result > summary > span.num { font-style: normal; }
+details.result > summary { padding-left: 2.4rem; }
+details.result > summary::before { content: "\25B8\2002" counter(result) "."; font-style: normal; color: var(--ink); }
+details.result[open] > summary::before { transform: none; content: "\25BE\2002" counter(result) "."; }
