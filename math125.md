@@ -65,13 +65,13 @@ Lecture 17
 : [Population competition models](/assets/notes/math125/lecture-17.pdf)
 
 Lecture 18
-: [Predator–prey models](/assets/notes/math125/lecture-18.pdf) <span class="muted">(guest lecture by James)</span>
+: [Predator–prey models](/assets/notes/math125/lecture-18.pdf) <span class="muted">(taught by James Ogaja)</span>
 
 Lecture 19
-: [Boundary value problems](/assets/notes/math125/lecture-19.pdf) <span class="muted">(guest lecture by James)</span>
+: [Boundary value problems](/assets/notes/math125/lecture-19.pdf) <span class="muted">(taught by James Ogaja)</span>
 
 Lecture 20
-: [Eigenfunctions with homogeneous boundary conditions](/assets/notes/math125/lecture-20.pdf) <span class="muted">(guest lecture by James)</span>
+: [Eigenfunctions with homogeneous boundary conditions](/assets/notes/math125/lecture-20.pdf) <span class="muted">(taught by James Ogaja)</span>
 
 Lecture 21
-: [Conserved quantities and chaos](/assets/notes/math125/lecture-21.pdf) <span class="muted">(guest lecture by James)</span>
+: [Conserved quantities and chaos](/assets/notes/math125/lecture-21.pdf) <span class="muted">(taught by James Ogaja)</span>
