@@ -47,10 +47,7 @@
         {% else %}
           <img class="avatar" src="{{ '/assets/img/profile-placeholder.svg' | relative_url }}" alt="">
         {% endif %}
-        <p class="sidebar-name">{{ site.title }}</p>
-        <p class="sidebar-role">{{ site.role }}</p>
         <ul class="sidebar-links">
-          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6-5.5-6-11a6 6 0 0 1 12 0c0 5.5-6 11-6 11z"/><circle cx="12" cy="10" r="2"/></svg>{{ site.location }}</li>
           {% for l in site.links %}
           <li>
             {%- case l.icon -%}
