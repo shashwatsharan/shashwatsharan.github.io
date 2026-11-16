@@ -1,8 +1,15 @@
 # Gallery albums, newest first.
-# To add a photo, put the full image in assets/img/gallery/ and a smaller copy
-# (about 1200 px) with the same name in assets/img/gallery/thumbs/.
-# ar is the width divided by the height of the photo.
-# description (optional) is a short line shown under the album's photos.
+#
+# To add a photo
+#   1. Upload the image to assets/img/gallery/ on GitHub.
+#   2. Add an entry under an album below with its file name and a caption.
+# Optional per photo
+#   ar      width divided by height (worked out automatically if left out)
+#   A smaller copy with the same name in assets/img/gallery/thumbs/ makes the
+#   page load faster, and is used automatically when it exists.
+# Optional per album
+#   description   a short line shown under the album's photos.
+
 - title: Long Lake Trail
   place: Colorado
   date: September 2026
