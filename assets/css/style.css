@@ -261,7 +261,7 @@ details.result[open] > summary::before { transform: none; content: "\25BE\2002" 
 .album { margin: 0 0 2.8rem; }
 .album h2 { margin-bottom: 0.15rem; }
 .album-meta { color: var(--muted); font-size: 0.9rem; font-style: italic; margin: 0 0 0.9rem; }
-.album-desc { color: var(--muted); font-size: 0.95rem; margin: 0.7rem 0 0; }
+.album-desc { font-size: 0.98rem; margin: -0.4rem 0 0.9rem; }
 .justified { display: flex; flex-wrap: wrap; gap: 6px; }
 .justified::after { content: ""; flex-grow: 1000000; }
 .justified .photo {
