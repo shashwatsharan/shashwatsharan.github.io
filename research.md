@@ -91,7 +91,7 @@ A natural follow-up is whether confined rarefaction flows can be described exact
 <details class="topic" markdown="1">
 <summary>Effective dissipation in turbulent superfluids</summary>
 
-Piston-like experiments in condensates produce turbulent structures and shock-like fronts that strongly resemble classical viscous shocks, even though the underlying model is conservative and has no dissipation. How does effective dissipation emerge from a dispersive, dissipationless system? I study this in the dam-break reflection configuration, where the flow generates its own shock front upon reflecting off a wall. By running high-resolution simulations of the higher-dimensional nonlinear Schrödinger equation alongside the inviscid compressible Euler equations, I aim to quantify this effective dissipation and connect it to classical viscous-shock theory.
+In dam break reflection experiments on condensates, the reflected flow forms a shock front that looks like a classical viscous shock, even though the underlying model has no dissipation. A transverse snake instability breaks the dispersive shock wave into vortices, and on the macroscopic scale this vortex dynamics acts as an effective viscosity. The resulting shock is described by the Rankine–Hugoniot jump conditions of the compressible Euler equations. I study this with high resolution simulations of the three dimensional nonlinear Schrödinger equation and the inviscid compressible Euler equations, compared directly with experiment.
 
 <details class="result" markdown="1">
 <summary>Experiment and 3D simulation of a dam-break flow</summary>
