@@ -52,7 +52,9 @@
     </nav>
   </header>
 
-  <div class="page">
+  {%- assign home = false -%}{%- if page.url == "/" -%}{%- assign home = true -%}{%- endif -%}
+  <div class="page{% unless home %} no-sidebar{% endunless %}">
+    {% if home %}<!-- photo and links appear on the home page only -->
     <aside class="sidebar">
       <div class="sidebar-inner">
         {%- comment -%} Uses assets/img/profile.jpg if you upload one, otherwise a placeholder. {%- endcomment -%}
@@ -79,6 +81,7 @@
         </ul>
       </div>
     </aside>
+    {% endif %}
 
     <main class="content">
       {% if page.url != "/" and page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
