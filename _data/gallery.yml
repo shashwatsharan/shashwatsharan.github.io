@@ -2,6 +2,7 @@
 # To add a photo, put the full image in assets/img/gallery/ and a smaller copy
 # (about 1200 px) with the same name in assets/img/gallery/thumbs/.
 # ar is the width divided by the height of the photo.
+# description (optional) is a short line shown under the album's photos.
 - title: Long Lake Trail
   place: Colorado
   date: September 2026
@@ -35,6 +36,7 @@
 - title: Merced
   place: California
   date: February 2026
+  description: On the way to the UC Merced campus, white almond blossoms in full bloom in front of the snow covered Sierra Nevada.
   photos:
     - file: merced-almonds-2026-02.jpg
       ar: 1.778
