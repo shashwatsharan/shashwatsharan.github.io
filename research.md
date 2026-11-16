@@ -98,7 +98,7 @@ Piston-like experiments in condensates produce turbulent structures and shock-li
 
 <figure>
   <video controls muted loop playsinline autoplay preload="metadata" src="/assets/video/bec-dambreak-exp-vs-sim.mp4"></video>
-  <figcaption>Dam-break flow of a Bose–Einstein condensate: measured column density (top) vs. a 3D simulation (middle), with line densities below. The simulation is integrated along the imaging direction and stretched transversely to match the time-of-flight expansion of the images.</figcaption>
+  <figcaption>Dam-break flow of a Bose–Einstein condensate: measured column density (top) vs. a 3D simulation (middle), with line densities below. The simulation is integrated along the imaging direction, stretched transversely to match the time-of-flight expansion, and smoothed to the imaging resolution of the camera.</figcaption>
 </figure>
 
 </details>
