@@ -1,0 +1,500 @@
+% Full academic CV (master version)
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article} % was 11pt
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor}
+% \usepackage{newtxtext,newtxmath} % previous font (Times)
+\usepackage[bitstream-charter]{mathdesign} % Charter text + math
+\usepackage{enumitem}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\usepackage[normalem]{ulem}
+\usepackage{needspace}
+\usepackage{lastpage}
+% --- Colour scheme: burgundy + charcoal (previous: navy = blue!60!black + steel blue 70,120,180) ---
+\definecolor{headcol}{RGB}{128,24,48}   % burgundy: section titles, name, links
+\definecolor{subhead}{RGB}{64,64,64}    % charcoal: sub-headings
+\definecolor{datecol}{RGB}{95,95,95}    % grey: dates / right column
+\newcommand{\cvdate}[1]{{\small\color{datecol}#1}}
+\definecolor{draft}{RGB}{230,120,0} % DRAFT colour: items to verify
+\linespread{1.08} % slightly more open line spacing
+\input{glyphtounicode}
+\setlist{labelsep=0.8em} % breathing room between bullets/numbers and text
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\fancyfoot[L]{\footnotesize\color{gray}Shashwat Sharan}
+\fancyfoot[C]{\footnotesize\color{gray}\textit{Last updated: November 2026}}
+\fancyfoot[R]{\footnotesize\color{gray}Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\resumeNestedItemListStart}{\begin{itemize}[leftmargin=1.5em]}
+\newcommand{\resumeNestedItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.00in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{0.75in} % was 1.0in; more room above footer
+\setlength{\footskip}{24pt}
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[{\color{gray!55}\titlerule[0.4pt]} \vspace{-5pt}] % lighter, thinner rule (was black)
+
+% Uniform vertical spacing before/after every section heading
+\titlespacing*{\section}{0pt}{0pt}{9pt} % was {6pt}
+\newcommand{\sectionbreak}{\par\removelastskip\vspace{18pt}} % was 10pt
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \cvdate{#2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationSubheading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \cvdate{#2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+      {\small #5} & \\
+      {\small #6} & \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \cvdate{#2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeConference}[4]{%
+  \vspace{-2pt}\item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & \cvdate{#2} \\
+    \textit{\small #3} & \\
+  \end{tabular*}%
+  \vspace{4pt} \\[-2pt]%
+  {\small #4}\vspace{4pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\talk}[4]{\item \textbf{#1} \hfill \cvdate{#2}%
+  \if\relax\detokenize{#3}\relax\else\\ {\small #3}\fi%
+  \if\relax\detokenize{#4}\relax\else\\ \textit{``#4''}\fi}
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Shashwat Sharan} \\ \vspace{2pt}
+    {\small Keith Julien Visiting Assistant Professor, Department of Applied Mathematics, University of Colorado Boulder} \\ \vspace{2pt}
+    % Doctoral Candidate in Applied Mathematics, University of California, Merced, California, USA\\ \vspace{1pt}
+    \footnotesize \href{mailto:shashwat.sharan@colorado.edu}{\raisebox{-0.2\height}\faEnvelope\  
+    {shashwat.sharan@colorado.edu}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ {linkedin.com/shashwatsharan/}}  ~
+    % \href{https://www.ssharan.net/}{\raisebox{-0.2\height} {\large \Mundus} \ {ssharan.net}}
+    \href{https://shashwatsharan.github.io/}{\raisebox{-0.2\height}\faGlobe\ {shashwatsharan.github.io}}  ~
+    \href{https://github.com/shashwatsharan}{\raisebox{-0.2\height}\faGithub\ {github.com/shashwatsharan}}  ~
+    \href{https://scholar.google.com/citations?user=fyJwJbwAAAAJ&hl=en}{\raisebox{-0.2\height}\faGraduationCap\ {Google Scholar}}
+    % 
+    \vspace{-8pt}
+\end{center}
+
+\vspace{1pt}
+
+
+\section{\color{headcol} Research and Teaching Interests}
+\vspace{2.8pt} % below-heading tweak
+\textit{Nonlinear waves and dispersive hydrodynamics, with a focus on dam-break and Riemann problems in Bose--Einstein condensates and shallow-water flows over variable bathymetry.}\\[3pt]
+
+\textbf{Research}: Nonlinear Waves; Dispersive PDEs; Dynamical Systems; Asymptotic Methods; Scientific Computing\\[2pt]
+\textbf{Teaching}: Ordinary Differential Equations; Partial Differential Equations; Numerical Analysis
+
+\vspace{0pt}
+
+\section{\color{headcol} Education}
+\vspace{5pt} % below-heading tweak
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {University of California Merced}{2022--2026}
+      {Ph.D. Applied Mathematics, GPA: 4.00/4}{Merced, California, USA}
+      {Thesis: Dambreak Hydrodynamics of Confined Bose-Einstein Condensates}
+      {Advisor: Prof. Boaz Ilan}
+  \resumeSubHeadingListEnd
+
+\vspace{-2pt}
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {San Diego State University}{2020--2022}
+      {M.S. Applied Mathematics, GPA: 4.00/4}{San Diego, California, USA}
+      {Thesis: Dynamics and Bifurcations of Feedforward Networks}
+      {Advisor: Prof. Antonio Palacios}
+  \resumeSubHeadingListEnd
+
+\vspace{-2pt}
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {Vellore Institute of Technology}{2016--2020}
+      {B.Tech. Electrical and Electronics Engineering, GPA: 8.69/10}{Vellore, Tamil Nadu, India}
+      {Capstone: Design of Control Systems for Inverted Double Linear and Rotary Pendulums}
+      {Advisor: Prof. Rashmi Ranjan Das}
+  \resumeSubHeadingListEnd
+
+\section{\color{headcol}Academic Appointments}
+\vspace{5pt} % below-heading tweak
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Keith Julien Visiting Assistant Professor}{Aug. 2026 -- Present}
+{Department of Applied Mathematics, University of Colorado Boulder}{}
+
+\resumeSubheading
+{Teaching Fellow}{Jun. 2026 -- Aug. 2026}
+{University of California, Merced}{}
+
+\resumeSubheading
+{Graduate Teaching Assistant}{Aug. 2022 -- May 2026}
+{University of California, Merced}{}
+
+\resumeSubheading
+{Graduate Research Assistant}{Jan. 2022 -- May 2022}
+{SDSU Research Foundation}{}
+
+\resumeSubheading
+{Graduate Teaching Assistant}{Aug. 2021 -- Dec. 2021}
+{San Diego State University}{}
+
+\resumeSubHeadingListEnd
+
+\section{\color{headcol} Publications}
+\vspace{2.4pt}
+{\small Full list also on \href{https://scholar.google.com/citations?user=fyJwJbwAAAAJ&hl=en}{\color{headcol}Google Scholar}.}\\[2pt]
+
+\vspace{3pt}
+\textbf{\color{subhead}Published}\\[2pt]
+{\small \textit{Author names appear as in the published articles.}}
+\vspace{2pt}
+\begin{enumerate}[itemsep=6pt, topsep=3pt, parsep=0pt, partopsep=0pt]
+
+    \item \textbf{\color{headcol}S. Sharan}, J. G. Sorribes, P. Sprenger, M. A. Hoefer, B. Ilan, P. Engels, M. E. Mossman, ``Breaking a superfluid harmonic dam: Observation and theory of Riemann invariants and accelerating sonic horizons'', {\textit{Physical Review Letters} (\textbf{2025})}\\ {\small DOI:} \href{https://doi.org/10.1103/38f7-ym2v}{\small \color{headcol}10.1103/38f7-ym2v}.
+    
+    \item T. Levasseur, A. Palacios, \textbf{\color{headcol}S. Sharan}, V. In, ``Beam Steering and Signal Amplification through Feedforward Networks, Part II: Reception'', \textit{International Journal of Bifurcation and Chaos} (\textbf{2025})\\ {\small DOI:} \href{https://www.worldscientific.com/doi/abs/10.1142/S0218127425300046}{\small \color{headcol}10.1142/S0218127425300046}.
+    
+    \item T. Levasseur, A. Palacios, \textbf{\color{headcol}S. Sharan}, V. In, ``Beam Steering and Signal Amplification through Feedforward Networks, Part I: Transmission'', \textit{International Journal of Bifurcation and Chaos} (\textbf{2022})\\ {\small DOI:} \href{https://www.worldscientific.com/doi/10.1142/S0218127422300348?srsltid=AfmBOorhaAjTwsjnPG5xqRdlFPL3qELaAp8npklbsX6DcJPEmaZ5bj0t}{\small \color{headcol}10.1142/S0218127422300348}.
+\end{enumerate}
+
+\vspace{6pt}
+\textbf{\color{subhead}Submitted}\\[2pt]
+\vspace{2pt}
+\begin{enumerate}[itemsep=6pt, topsep=3pt, parsep=0pt, partopsep=0pt]
+
+    \item \textbf{\color{headcol}S. Sharan}, P. Sprenger, B. Ilan, M. A. Hoefer, ``Dry dam-break over parabolic bathymetry'', submitted to \textit{Journal of Nonlinear Waves} (\textbf{2026})\\ {\small arXiv:} \href{https://arxiv.org/abs/2607.13050}{\small \color{headcol}2607.13050}.
+\end{enumerate}
+
+\vspace{6pt}
+\needspace{6\baselineskip}
+\textbf{\color{subhead}Manuscripts in Preparation}\\[2pt]
+{\small \textit{Authors listed in alphabetical order by last name.}}
+\vspace{2pt}
+\begin{enumerate}[itemsep=6pt, topsep=3pt, parsep=0pt, partopsep=0pt]
+
+    \item M. A. Hoefer, B. Ilan, K. Ome, M. Gin, P. Engels, M. E. Mossman, \textbf{\color{headcol}S. Sharan}, P. Sprenger. ``Dam-break reflections in an elongated Bose--Einstein condensate.''
+    
+    \item M. A. Hoefer, B. Ilan, \textbf{\color{headcol}S. Sharan}, P. Sprenger. ``NLS-like formulation of PDEs of hydrodynamic type.''
+\end{enumerate}
+
+\section{\color{headcol}Talks and Presentations}
+\vspace{-1.2pt} % below-heading tweak
+
+\vspace{8pt}
+\textbf{\color{subhead}Invited Talks}
+\begin{itemize}[leftmargin=1.2em, itemsep=9pt, topsep=4pt, parsep=0pt, partopsep=0pt]
+    \talk{Waves 2027, University of Georgia}{Athens, GA \textperiodcentered\ Mar. 2027 \textit{(upcoming)}}{Minisymposium: Regular and Stochastic Dispersive Hydrodynamics}{}
+    \talk{AMS Fall Western Sectional Meeting, Arizona State University}{Tempe, AZ \textperiodcentered\ Nov. 7--8, 2026}{Special Session on Nonlinear Waves, Integrable Systems, and Inverse Scattering}{Dry dam-break over parabolic bathymetry}
+    \talk{SIAM Texas--Louisiana Section Annual Meeting, Southern Methodist University}{Dallas, TX \textperiodcentered\ Oct. 30--Nov. 1, 2026}{Minisymposium MS39: Recent Advances in Nonlinear Waves and Integrable Systems}{Dry dam-break over parabolic bathymetry}
+    \talk{SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS26)}{Montr\'eal, Canada \textperiodcentered\ May 26--29, 2026}{Minisymposium MS19: Recent Advances in Dispersive Hydrodynamics}{Breaking a Superfluid Harmonic Dam: Rarefaction Dynamics of a Trapped Condensate}
+    \talk{Nonlinear Waves Seminar, Applied Mathematics, CU Boulder}{Boulder, CO \textperiodcentered\ Nov. 5, 2025}{}{Vacuum dam-break of a superfluid: rarefaction waves in harmonic potential}
+    \talk{AMS Spring Central Sectional Meeting, University of Kansas}{Lawrence, KS \textperiodcentered\ Mar. 29--30, 2025}{Special Session on Dispersive Hydrodynamics}{Vacuum dam-break problem for the defocusing NLS equation with a harmonic potential}
+    \talk{International Seminar on Emerging Trends in Mathematics, VIT}{Vellore, India \textperiodcentered\ Mar. 29, 2018}{}{$N$-body gravitational simulations and trajectories around rotating spherical bodies}
+\end{itemize}
+
+\vspace{8pt}
+\textbf{\color{subhead}Contributed Talks}
+\begin{itemize}[leftmargin=1.2em, itemsep=9pt, topsep=4pt, parsep=0pt, partopsep=0pt]
+    \talk{Waves 2025, University of Georgia}{Athens, GA \textperiodcentered\ Apr. 14--16, 2025}{13th International Conference on Nonlinear Evolution Equations and Wave Phenomena}{Dry dam-break of a confined Bose--Einstein condensate}
+    \talk{Joint Mathematics Meetings (JMM 2025)}{Seattle, WA \textperiodcentered\ Jan. 8--11, 2025}{}{Dry dam-break of a confined Bose--Einstein condensate}
+\end{itemize}
+
+\vspace{8pt}
+\textbf{\color{subhead}Posters}
+\begin{itemize}[leftmargin=1.2em, itemsep=9pt, topsep=4pt, parsep=0pt, partopsep=0pt]
+    \talk{SIAM Northern \& Central California Sectional Conference (NCC25), LBNL}{Berkeley, CA \textperiodcentered\ Oct. 2025}{}{Dam-break dynamics of a confined Bose--Einstein condensate}
+    \talk{SIAM Northern California Sectional Conference (NCC24), UC Merced}{Merced, CA \textperiodcentered\ Oct. 9--11, 2024}{}{Dam-break dynamics of a confined Bose--Einstein condensate}
+    \talk{Workshop on Emergent Phenomena in Nonlinear Dispersive Waves, Northumbria University}{Newcastle, UK \textperiodcentered\ Jul. 23, 2024}{}{Riemann problem for spin coupled Bose--Einstein condensates}
+    \talk{SIAM Conference on Nonlinear Waves and Coherent Structures (NWCS24)}{Baltimore, MD \textperiodcentered\ Jun. 24--27, 2024}{}{Riemann problem for spin coupled Bose--Einstein condensates}
+    \talk{Southern California Applied Mathematics Symposium (SoCAMS), Harvey Mudd College}{Claremont, CA \textperiodcentered\ May 21, 2022}{}{Dynamics and bifurcations of feedforward networks}
+\end{itemize}
+
+\vspace{8pt}
+\textbf{\color{subhead}Invited Workshops}
+\begin{itemize}[leftmargin=1.2em, itemsep=9pt, topsep=4pt, parsep=0pt, partopsep=0pt]
+    \talk{ICTP-INdAM-SLMath Summer Graduate School for Machine Learning, ICTP}{Trieste, Italy \textperiodcentered\ Jun. 15--26, 2026}{}{}
+    \talk{Workshop on Emergent Phenomena in Nonlinear Dispersive Waves, Northumbria University}{Newcastle, UK \textperiodcentered\ Jul.--Aug. 2024}{}{}
+\end{itemize}
+
+\needspace{10\baselineskip}
+\section{\color{headcol}Awards, Honours, and Funding}
+\vspace{5pt}
+\textbf{\color{subhead}Research Funding and Fellowships}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt, partopsep=0pt]
+    \item Applied Mathematics Summer Research Fellowship, \$8,000 \hfill (UCM) \, \cvdate{2026}
+    \item Applied Mathematics Summer Research Fellowship, \$3,300 \hfill (UCM) \, \cvdate{2025}
+    \item Applied Mathematics Summer Research Fellowship, \$8,200 \hfill (UCM) \, \cvdate{2024}
+    \item Master's Research Scholarship, \$10,000 \hfill (SDSU) \, \cvdate{2022}
+\end{itemize}
+
+\vspace{8pt}
+\textbf{\color{subhead}Honours and Awards}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt, partopsep=0pt]
+    \item Applied Mathematics Excellence in Research Award, \$1,500 \hfill (UCM) \, \cvdate{2026}
+    \item Applied Mathematics Distinguished Service Award \hfill (UCM) \, \cvdate{2026}
+    \item GradEXCEL Peer Mentor Award \hfill (UCM) \, \cvdate{2025}
+    \item Academic Excellence in Mathematics Award \hfill (SDSU) \, \cvdate{2022}
+\end{itemize}
+
+\vspace{8pt}
+\textbf{\color{subhead}Travel Awards}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt, partopsep=0pt]
+    \item Applied Mathematics Travel Awards, \$1,500 each \hfill (UCM) \, \cvdate{2024, 2026}
+    \item MacKenzie Scott Graduate Travel Award, \$500 \hfill (UCM) \, \cvdate{2024}
+    \item Graduate Student Association Travel Award, \$250 \hfill (UCM) \, \cvdate{2024}
+\end{itemize}
+
+\section{\color{headcol}Teaching Experience}
+\vspace{5pt} % below-heading tweak
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{University of Colorado Boulder}{Aug. 2026 -- Present}
+{Boulder, Colorado, USA}{}
+\resumeItemListStart
+    \resumeItem{\textbf{\color{subhead}Instructor of Record:}}
+    \begin{itemize}[leftmargin=1.5em]
+        \item[\textendash] \small APPM 1360 -- Calculus II for Engineers, Honors section, 23 students (Fall 2026)
+    \end{itemize}
+\resumeItemListEnd
+
+\resumeSubheading
+{University of California, Merced}{Aug. 2022 -- Aug. 2026}
+{Merced, California, USA}{}
+\resumeItemListStart
+    \resumeItem{\textbf{\color{subhead}Instructor of Record:}}
+    \begin{itemize}[leftmargin=1.5em]
+        \item[\textendash] \small MATH 125 -- Upper Division Differential Equations, 17 students (Summer 2026)
+        \item[] \small \textit{Student evaluations: instructor effective overall 7.0/7; overall course index 6.8/7 (5 of 17 students responded).}
+        \item[] \small \textit{Student comment: ``The professor was very good in terms of teaching the material and being patient [\ldots]. Overall, I understood every concept [\ldots]. I grew as a math major simply by taking the course.''}
+    \end{itemize}
+
+    \resumeItem{\textbf{\color{subhead}Teaching Assistant (lower division):}}
+    \begin{itemize}[leftmargin=1.5em]
+        \item[\textendash] \small MATH 21 -- Calculus I for Physical Sciences and Engineering (Fall 2023)
+        \item[\textendash] \small MATH 22 -- Calculus II for Physical Sciences and Engineering (Fall 2022)
+        \item[\textendash] \small MATH 24 -- Differential Equations and Linear Algebra (Spring 2023, Summer 2025)
+    \end{itemize}
+
+    \resumeItem{\textbf{\color{subhead}Teaching Assistant (upper division):}}
+    \begin{itemize}[leftmargin=1.5em]
+        \item[\textendash] \small MATH 125 -- Upper Division Differential Equations (Fall 2025)
+        \item[\textendash] \small MATH 126 -- Partial Differential Equations (Spring 2026)
+        \item[\textendash] \small MATH 132 -- Numerical Methods for Differential Equations (Spring 2024)
+        \item[\textendash] \small MATH 141 -- Linear Analysis (Fall 2024)
+        \item[\textendash] \small MATH 146 -- Numerical Linear Algebra (Spring 2025)
+    \end{itemize}
+\resumeItemListEnd
+
+\resumeSubheading
+{San Diego State University}{Aug. 2021 -- Dec. 2021}
+{San Diego, California, USA}{}
+\resumeItemListStart
+    \resumeItem{\textbf{\color{subhead}Teaching Assistant:}}
+    \begin{itemize}[leftmargin=1.5em]
+        \item[\textendash] \small MATH 151 -- Calculus II (Fall 2021)
+    \end{itemize}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{\color{headcol}Research Mentoring}
+\vspace{5pt}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, topsep=3pt, parsep=0pt, partopsep=0pt]
+    \item \textbf{Thomas Williams}, M.S. student, Applied Mathematics, CU Boulder \hfill \cvdate{2026 -- Present}
+\end{itemize}
+
+\section{\color{headcol}Professional Service}
+\vspace{5pt}
+\textbf{\color{subhead}Refereeing} (co-reviewer with M. A. Hoefer): \textit{Physical Review Letters}; \textit{Journal of Fluid Mechanics}
+
+\vspace{8pt}
+\textbf{\color{subhead}Department and Community Service}
+\begin{itemize}[leftmargin=1.2em, itemsep=6pt, topsep=2pt, parsep=0pt, partopsep=0pt]
+
+\item \textbf{Preliminary Exam Coach, UC Merced}\hfill \cvdate{Fall 2025 -- Spring 2026}\\
+Organized and led regular problem solving sessions for graduate students preparing for preliminary examinations, providing guidance on core topics, clarifying concepts, and developing effective solution strategies.
+
+\item \textbf{Graduate Peer Mentor, UC Merced} \hfill \cvdate{Fall 2025}\\
+Supported incoming graduate students in transitioning to the program by providing academic guidance, mentoring, and advice on coursework, teaching responsibilities, and workload management.
+
+    \item \textbf{Projects Team, VITMAS (VIT Mathematical Association), VIT Vellore} \hfill \cvdate{2017--2020}\\
+Participated in project based activities within the university mathematics club, including representing the university in international mathematical modeling competitions such as COMAP MCM and ICM. Recruited and mentored students for competition teams and contributed to collaborative, team based problem solving.
+\end{itemize}
+
+\section{\color{headcol}Skills and Languages}
+\vspace{5pt}
+\textbf{\color{subhead}Computational}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt, partopsep=0pt]
+    \item \textbf{Programming:} Python, MATLAB, Mathematica
+    \item \textbf{Methods:} Spectral methods; high-performance computing (HPC)
+\end{itemize}
+
+\vspace{4pt}
+% OPTION 1 (one line):
+% \textbf{\color{subhead}Languages:} Hindi (native), English (bilingual), Spanish (fluent, professional working); reading proficiency in French, Italian, and Portuguese
+% OPTION 2 (table):
+\textbf{\color{subhead}Languages}
+\begin{itemize}[leftmargin=1.2em, itemsep=3pt, topsep=2pt, parsep=0pt, partopsep=0pt]
+    \item Hindi (native)
+    \item English (bilingual proficiency)
+    \item Spanish (fluent; professional working proficiency)
+    \item French, Italian, Portuguese (intermediate reading and listening proficiency)
+\end{itemize}
+
+% --- Software (commented out) ---
+% \section{\color{headcol}Software}
+% \vspace{5pt}
+% {\color{draft}GitHub: \href{https://github.com/shashwatsharan}{github.com/shashwatsharan}} % DRAFT: confirm username; repositories maintained here
+
+% --- Professional Memberships (commented out) ---
+% \section{\color{headcol}Professional Memberships}
+% \vspace{5pt}
+% {\color{draft} Society for Industrial and Applied Mathematics (SIAM); American Mathematical Society (AMS)} % DRAFT: verify membership status
+% 
+% % --- Collaborators (commented out; uncomment to show) ---
+
+% \section{\color{headcol}Collaborators}
+% \vspace{5pt}
+% \begin{multicols}{4}
+% \begin{itemize}[leftmargin=1.2em, itemsep=3pt, topsep=0pt, parsep=0pt, partopsep=0pt]
+%   \item M. A. Hoefer
+%   \item B. Ilan
+%   \item P. Sprenger
+%   \item P. Engels
+%   \item M. E. Mossman
+%   \item J. G. Sorribes
+%   \item K. Ome
+%   \item A. Palacios
+%   \item T. Levasseur
+% \end{itemize}
+% \end{multicols}
+
+\needspace{8\baselineskip}
+\section{\color{headcol}References}
+\vspace{6pt}
+\noindent
+  \begin{minipage}[t]{0.32\textwidth}\small\textbf{Prof. Boaz Ilan}\\[3pt] Professor of Applied Mathematics\\[2pt] University of California, Merced\\[2pt] bilan@ucmerced.edu\end{minipage}\hfill
+  \begin{minipage}[t]{0.32\textwidth}\small\textbf{Prof. Mark A. Hoefer}\\[3pt] Professor of Applied Mathematics\\[2pt] University of Colorado Boulder\\[2pt] hoefer@colorado.edu\end{minipage}\hfill
+  \begin{minipage}[t]{0.32\textwidth}\small\textbf{Prof. Patrick Sprenger}\\[3pt] Assistant Professor of Applied Mathematics\\[2pt] University of North Carolina Wilmington\\[2pt] sprengerp@uncw.edu\end{minipage}
+
+\end{document}
