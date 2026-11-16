@@ -164,14 +164,3 @@ Jun 2026
 Jul 2024
 : <span class="loc">Newcastle, UK</span>Workshop on Emergent Phenomena in Nonlinear Dispersive Waves<br>
 <span class="session">Northumbria University</span>
-
-## Service and outreach
-
-2025 – 26
-: **Preliminary Exam Coach**, UC Merced. Organised and led problem-solving sessions for graduate students preparing for preliminary examinations.
-
-Fall 2025
-: **Graduate Peer Mentor**, UC Merced. Supported incoming graduate students with academic guidance and advice on coursework, teaching and workload.
-
-2017 – 20
-: **Projects Team, VIT Mathematical Association**. Represented the university in the COMAP MCM and ICM modelling competitions; recruited and mentored student teams.
