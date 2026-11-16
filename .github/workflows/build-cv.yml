@@ -1,0 +1,42 @@
+# Builds the CV PDF from cv-source/cv.tex whenever anything in cv-source/ changes,
+# and saves it as assets/cv.pdf so the website links to it.
+name: Build CV
+
+on:
+  push:
+    branches: [main]
+    paths: ["cv-source/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv.tex
+          working_directory: cv-source
+
+      - name: Save PDF to the site
+        run: |
+          mkdir -p assets
+          cp cv-source/cv.pdf assets/cv.pdf
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cv.pdf
+          if git diff --cached --quiet; then
+            echo "PDF unchanged"
+          else
+            git commit -m "Build CV PDF"
+            git push
+            gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
