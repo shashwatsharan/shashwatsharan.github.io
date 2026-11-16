@@ -14,6 +14,7 @@ title: Gallery
     </a>
     {% endfor %}
   </div>
+  {% if album.description %}<p class="album-desc">{{ album.description }}</p>{% endif %}
 </section>
 {% endfor %}
 
