@@ -9,8 +9,10 @@ title: Gallery
   <p class="album-meta">{{ album.place }} · {{ album.date }}</p>
   <div class="justified">
     {% for p in album.photos %}
-    <a href="/assets/img/gallery/{{ p.file }}" class="photo" style="--ar: {{ p.ar }}" data-caption="{{ p.caption | escape }}" data-album="{{ forloop.parentloop.index }}">
-      <img src="/assets/img/gallery/thumbs/{{ p.file }}" alt="{{ p.caption | escape }}" loading="lazy">
+    {% assign tpath = "/assets/img/gallery/thumbs/" | append: p.file %}
+    {% assign thumb = site.static_files | where: "path", tpath | first %}
+    <a href="/assets/img/gallery/{{ p.file }}" class="photo" style="--ar: {{ p.ar | default: 1.5 }}"{% unless p.ar %} data-auto-ar{% endunless %} data-caption="{{ p.caption | escape }}" data-album="{{ forloop.parentloop.index }}">
+      <img src="{% if thumb %}{{ tpath }}{% else %}/assets/img/gallery/{{ p.file }}{% endif %}" alt="{{ p.caption | escape }}" loading="lazy">
     </a>
     {% endfor %}
   </div>
@@ -31,6 +33,11 @@ title: Gallery
 <script>
 (function () {
   var links = Array.prototype.slice.call(document.querySelectorAll('.album .photo'));
+  // photos added without an ar value get their shape from the image itself
+  document.querySelectorAll('.photo[data-auto-ar] img').forEach(function (im) {
+    function fit() { if (im.naturalWidth) im.parentNode.style.setProperty('--ar', im.naturalWidth / im.naturalHeight); }
+    if (im.complete) fit(); else im.addEventListener('load', fit);
+  });
   var lb = document.querySelector('.lightbox'), img = lb.querySelector('.lb-img'),
       cap = lb.querySelector('.lb-caption'), group = [], i = 0, x0 = null;
   function show() {
