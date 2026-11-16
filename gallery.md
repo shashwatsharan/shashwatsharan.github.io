@@ -7,6 +7,7 @@ title: Gallery
 <section class="album">
   <h2>{{ album.title }}</h2>
   <p class="album-meta">{{ album.place }} · {{ album.date }}</p>
+  {% if album.description %}<p class="album-desc">{{ album.description }}</p>{% endif %}
   <div class="justified">
     {% for p in album.photos %}
     {% assign tpath = "/assets/img/gallery/thumbs/" | append: p.file %}
@@ -16,7 +17,6 @@ title: Gallery
     </a>
     {% endfor %}
   </div>
-  {% if album.description %}<p class="album-desc">{{ album.description }}</p>{% endif %}
 </section>
 {% endfor %}
 
