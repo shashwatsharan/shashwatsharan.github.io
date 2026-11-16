@@ -266,6 +266,7 @@ details.result[open] > summary::before { transform: none; content: "\25BE\2002" 
 .justified::after { content: ""; flex-grow: 1000000; }
 .justified .photo {
   flex-grow: calc(var(--ar) * 100); flex-basis: calc(var(--ar) * 15rem);
+  max-width: calc(var(--ar) * 17rem);   /* caps row height so photos never get too tall */
   display: block; overflow: hidden; background: var(--faint); line-height: 0;
 }
 .justified .photo img { width: 100%; height: auto; transition: transform 0.35s ease, opacity 0.35s ease; }
