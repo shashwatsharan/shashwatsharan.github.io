@@ -39,6 +39,9 @@
     - file: highway1-cove-2026-05.jpg
       ar: 1.328
       caption: A cove along Highway 1.
+    - file: highway1-panorama-2026-05.jpg
+      ar: 3.409
+      caption: A panorama of a cove along Highway 1, with a waterfall onto the beach.
 
 - title: Merced
   place: California
