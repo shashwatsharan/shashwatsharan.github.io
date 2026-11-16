@@ -93,6 +93,16 @@ A natural follow-up is whether confined rarefaction flows can be described exact
 
 Piston-like experiments in condensates produce turbulent structures and shock-like fronts that strongly resemble classical viscous shocks, even though the underlying model is conservative and has no dissipation. How does effective dissipation emerge from a dispersive, dissipationless system? I study this in the dam-break reflection configuration, where the flow generates its own shock front upon reflecting off a wall. By running high-resolution simulations of the higher-dimensional nonlinear Schrödinger equation alongside the inviscid compressible Euler equations, I aim to quantify this effective dissipation and connect it to classical viscous-shock theory.
 
+<details class="result" markdown="1">
+<summary>Experiment and 3D simulation of a dam-break flow</summary>
+
+<figure>
+  <video controls muted loop playsinline autoplay preload="metadata" src="/assets/video/bec-dambreak-exp-vs-sim.mp4"></video>
+  <figcaption>Dam-break flow of a Bose–Einstein condensate: measured column density (top) vs. a 3D simulation (middle), with line densities below. The simulation is integrated along the imaging direction and stretched transversely to match the time-of-flight expansion of the images.</figcaption>
+</figure>
+
+</details>
+
 <!-- To add a video: upload an .mp4 to assets/video/ and uncomment this block.
 <figure>
   <video controls muted loop playsinline src="/assets/video/reflection.mp4"></video>
