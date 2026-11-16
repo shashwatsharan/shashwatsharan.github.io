@@ -8,11 +8,12 @@
 #   A smaller copy with the same name in assets/img/gallery/thumbs/ makes the
 #   page load faster, and is used automatically when it exists.
 # Optional per album
-#   description   a short line shown under the album's photos.
+#   description   a short line shown above the album's photos.
 
 - title: Long Lake Trail
   place: Colorado
   date: September 2026
+  description: A day hike to Long Lake with Boaz Ilan, Sean Nixon and Mark Hoefer.
   photos:
     - file: long-lake-2026-09.jpg
       ar: 1.493
@@ -21,6 +22,7 @@
 - title: Boulder
   place: Colorado
   date: August 2026
+  description: A sunny afternoon over the CU Boulder campus, with the foothills behind it.
   photos:
     - file: boulder-campus-2026-08.jpg
       ar: 0.721
@@ -29,6 +31,7 @@
 - title: Highway 1
   place: California
   date: May 2026
+  description: A drive along the California coast on Highway 1, past its cliffs, coves and fog.
   photos:
     - file: highway1-coast-2026-05.jpg
       ar: 1.328
@@ -55,6 +58,7 @@
 - title: Bella Luna
   place: Merced, California
   date: December 2025
+  description: Dinner in Merced with Boaz Ilan and Patrick Sprenger.
   photos:
     - file: dinner-2025-12.jpg
       ar: 1.778
