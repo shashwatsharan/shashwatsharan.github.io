@@ -28,6 +28,17 @@
     - file: highway1-me-2026-05.jpg
       ar: 0.753
       caption: Me, along Highway 1.
+    - file: highway1-cove-2026-05.jpg
+      ar: 1.328
+      caption: A cove along Highway 1.
+
+- title: Merced
+  place: California
+  date: February 2026
+  photos:
+    - file: merced-almonds-2026-02.jpg
+      ar: 1.778
+      caption: Almond blossoms and the snowy Sierra Nevada on the way to the UC Merced campus.
 
 - title: Bella Luna
   place: Merced, California
