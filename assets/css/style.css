@@ -71,6 +71,7 @@ body {
   gap: 0 3rem;
 }
 
+.page.no-sidebar { grid-template-columns: minmax(0, var(--measure)); }
 .sidebar { padding-top: 7.4rem; }   /* lines the photo up with the first line of text */
 .sidebar-inner { position: sticky; top: 2rem; }
 .avatar {
