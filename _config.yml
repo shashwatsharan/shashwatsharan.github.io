@@ -45,4 +45,5 @@ kramdown:
 
 exclude:
   - README.md
+  - cv-source/
   - LICENSE
