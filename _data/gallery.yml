@@ -10,6 +10,15 @@
 # Optional per album
 #   description   a short line shown above the album's photos.
 
+- title: AMS Fall Western Sectional Meeting
+  place: Arizona State University, Tempe
+  date: November 2026
+  description: Attending the AMS Fall Western Sectional Meeting with Julian Xie and Jerry Wang, doctoral students advised by Mark Hoefer.
+  photos:
+    - file: ams-tempe-2026-11.jpg
+      ar: 1.333
+      caption: Me, Julian Xie and Jerry Wang (left to right) at Arizona State University.
+
 - title: Long Lake Trail
   place: Colorado
   date: September 2026
